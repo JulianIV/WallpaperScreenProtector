@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>WindowsStoreApp</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/julia/source/repos/WallPaperScreenProtector/WallPaperScreenProtector/Content/1555740726212.jpg</File>
+    <File>C:/Users/julia/source/repos/WallPaperScreenProtector/WallPaperScreenProtector/Content/1566401895326.jpg</File>
+    <File>C:/Users/julia/source/repos/WallPaperScreenProtector/WallPaperScreenProtector/Content/Deurdonderen.jpeg</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>wp1.jpg</File>
+    <File>wp3.jpg</File>
+    <File>wp2.jpeg</File>
+  </DestFiles>
+</SourceFileCollection>
