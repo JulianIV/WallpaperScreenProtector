@@ -1,1 +1,1 @@
-C:\Users\julia\source\repos\WallPaperScreenProtector\WallPaperScreenProtector\WallPaperScreenProtector.csproj;x64
+D:\Documents\GitHub\WallpaperScreenProtector\WallPaperScreenProtector\WallPaperScreenProtector.csproj;x64

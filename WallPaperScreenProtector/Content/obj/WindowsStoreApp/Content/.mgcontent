@@ -4,9 +4,9 @@
   <Platform>WindowsStoreApp</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/julia/source/repos/WallPaperScreenProtector/WallPaperScreenProtector/Content/1555740726212.jpg</File>
-    <File>C:/Users/julia/source/repos/WallPaperScreenProtector/WallPaperScreenProtector/Content/1566401895326.jpg</File>
-    <File>C:/Users/julia/source/repos/WallPaperScreenProtector/WallPaperScreenProtector/Content/Deurdonderen.jpeg</File>
+    <File>D:/Documents/GitHub/WallpaperScreenProtector/WallPaperScreenProtector/Content/1555740726212.jpg</File>
+    <File>D:/Documents/GitHub/WallpaperScreenProtector/WallPaperScreenProtector/Content/1566401895326.jpg</File>
+    <File>D:/Documents/GitHub/WallpaperScreenProtector/WallPaperScreenProtector/Content/Deurdonderen.jpeg</File>
   </SourceFiles>
   <DestFiles>
     <File>wp1.jpg</File>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EZYf+s5WBEeILz9mbfvA5qYWg5wl+NbwiTx8QoLL1N6It2REfQrdED66dlIhsEzyjPmHgwql0tdcZd2xO+wOtQ==",
+  "dgSpecHash": "vCh/cQTlrsOk2Nd8hfe5wYsX+WxPMIlba29sGMbJvcbPQq4abrDEBx56NhKkfTUjOL1wMAoJOtfpykeSVtQ4Sg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\julia\\source\\repos\\WallPaperScreenProtector\\WallPaperScreenProtector\\WallPaperScreenProtector.csproj",
+  "projectFilePath": "D:\\Documents\\GitHub\\WallpaperScreenProtector\\WallPaperScreenProtector\\WallPaperScreenProtector.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.7-rel-27913-00\\microsoft.net.native.compiler.2.2.7-rel-27913-00.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.9\\microsoft.net.uwpcoreruntimesdk.2.2.9.nupkg.sha512",

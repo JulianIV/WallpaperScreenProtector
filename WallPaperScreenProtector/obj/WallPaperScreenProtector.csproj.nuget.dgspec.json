@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julia\\source\\repos\\WallPaperScreenProtector\\WallPaperScreenProtector\\WallPaperScreenProtector.csproj": {}
+    "D:\\Documents\\GitHub\\WallpaperScreenProtector\\WallPaperScreenProtector\\WallPaperScreenProtector.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julia\\source\\repos\\WallPaperScreenProtector\\WallPaperScreenProtector\\WallPaperScreenProtector.csproj": {
+    "D:\\Documents\\GitHub\\WallpaperScreenProtector\\WallPaperScreenProtector\\WallPaperScreenProtector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\source\\repos\\WallPaperScreenProtector\\WallPaperScreenProtector\\WallPaperScreenProtector.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\WallpaperScreenProtector\\WallPaperScreenProtector\\WallPaperScreenProtector.csproj",
         "projectName": "WallPaperScreenProtector",
-        "projectPath": "C:\\Users\\julia\\source\\repos\\WallPaperScreenProtector\\WallPaperScreenProtector\\WallPaperScreenProtector.csproj",
+        "projectPath": "D:\\Documents\\GitHub\\WallpaperScreenProtector\\WallPaperScreenProtector\\WallPaperScreenProtector.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\source\\repos\\WallPaperScreenProtector\\WallPaperScreenProtector\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\WallpaperScreenProtector\\WallPaperScreenProtector\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
