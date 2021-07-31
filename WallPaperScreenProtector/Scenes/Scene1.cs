@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace WallPaperScreenProtector.Scenes
 {
-    // FullScreen
+    // FullScreen slide-in left
     public class Scene1 : IScene
     {
         private Texture2D _image;

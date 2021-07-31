@@ -1,11 +1,11 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using System;
 using System.Diagnostics;
 
 namespace WallPaperScreenProtector.Scenes
 {
+    // Fullscreen fade-in
     class Scene3 : IScene
     {
         private Texture2D _image;
@@ -20,7 +20,7 @@ namespace WallPaperScreenProtector.Scenes
         public Scene3(ContentManager content, Rectangle windowSize)
         {
             _image = content.Load<Texture2D>(Consts.GetRandomWallpaper());
-            _rect = new Rectangle(0, 0, windowSize.Width, windowSize.Height);
+            _rect = new Rectangle(windowSize.X, windowSize.Y, windowSize.Width, windowSize.Height);
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
