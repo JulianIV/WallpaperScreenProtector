@@ -95,6 +95,7 @@
     <Compile Include="Scenes\Scene1.cs" />
     <Compile Include="Scenes\Scene2.cs" />
     <Compile Include="Scenes\Scene3.cs" />
+    <Compile Include="Scenes\Scene4.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
