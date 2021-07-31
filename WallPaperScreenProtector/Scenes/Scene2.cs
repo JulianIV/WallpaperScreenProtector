@@ -23,6 +23,11 @@ namespace WallPaperScreenProtector.Scenes
             _startValue = windowSize.Width * 2;
         }
 
+        public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
+        {
+            spriteBatch.Draw(_image, _rect, Color.White);
+        }
+
         public void Update(GameTime gameTime)
         {
             if (_timeElapsed < _lerpDuration)
@@ -48,11 +53,6 @@ namespace WallPaperScreenProtector.Scenes
             }
 
             _rect.X = (int)_valueToLerp;
-        }
-
-        public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
-        {
-            spriteBatch.Draw(_image, _rect, Color.White);
         }
     }
 }
