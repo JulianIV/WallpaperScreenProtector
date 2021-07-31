@@ -18,11 +18,7 @@ namespace WallPaperScreenProtector
         private int _timeSinceLastFrame = 0;
 
         private Random _random = new Random();
-        private List<Type> _scenes = new List<Type>
-        {
-            typeof(Scene1),
-            typeof(Scene2),
-        };
+        private IEnumerable<Type> _scenes;
         
         public Game1()
         {
@@ -37,6 +33,11 @@ namespace WallPaperScreenProtector
         {
             // Add initialization logic here
             _currentScene = new Scene1(Content, _windowSize);
+
+            var sceneType = typeof(IScene);
+            _scenes = typeof(Game1).Assembly.GetTypes()
+                .Where(x => sceneType.IsAssignableFrom(x))
+                .Where(x => !x.IsInterface && !x.IsAbstract);
 
             base.Initialize();
         }
@@ -82,7 +83,7 @@ namespace WallPaperScreenProtector
 
         private IScene GetNextScene(ContentManager content, Rectangle windowSize)
         {
-            var sceneToMake = _scenes.Skip(_random.Next(0, _scenes.Count)).First();
+            var sceneToMake = _scenes.Skip(_random.Next(0, _scenes.Count())).First();
 
             var scene = Activator.CreateInstance(sceneToMake, new object[] { content, windowSize });
 
