@@ -32,7 +32,7 @@ namespace WallPaperScreenProtector
         protected override void Initialize()
         {
             // Add initialization logic here
-            _currentScene = new Scene1(Content, _windowSize);
+            _currentScene = new Scene3(Content, _windowSize);
 
             var sceneType = typeof(IScene);
             _scenes = typeof(Game1).Assembly.GetTypes()
@@ -68,7 +68,7 @@ namespace WallPaperScreenProtector
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             _spriteBatch.Begin();
             _currentScene.Draw(gameTime, _spriteBatch);
